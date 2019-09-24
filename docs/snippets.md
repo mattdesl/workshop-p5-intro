@@ -6,6 +6,32 @@
 
 Here you will find some 'recipes' and patterns that we'll be using during the workshop.
 
+## Contents
+
+- [Sketch Fundamentals](#sketch-fundamentals)
+
+- [Drawing Polygons](#drawing-polygons)
+
+- [Line Segment With Angle](#line-segment-with-angle)
+
+- [Linear Spacing in Loops](#linear-spacing-in-loops)
+
+- [Trigonometry: Computing a Circle](#trig)
+
+- [Mapping `-1..1` to `0..1`](#mapping0)
+
+- [Mapping `0..1` to `-1..1`](#mapping1)
+
+- [Linear Interpolation within a Range](#lerp)
+
+- [Inverse Linear Interpolation](#inverseLerp)
+
+- [Springing Motion](#springing-motion)
+
+- [Seamless Loops](#seamless-loops)
+
+- [Rotate Around Centre](#rotate-around-centre)
+
 ## Sketch Fundamentals
 
 At the core of each p5.js sketch is a setup, resize handler, and render loop like so:
@@ -27,7 +53,7 @@ function draw(){
 }
 ```
 
-## Polygons, Triangles, Diamonds, Hexagons, etc
+## Drawing Polygons
 
 > #### ✨ [Live Demo](https://glitch.com/edit/#!/p5-example?path=sketch.js)
 
@@ -115,6 +141,8 @@ This is also the basis for demos like:
 
   - and many others...
 
+<a name="trig"></a>
+
 ## Trigonometry: Computing a Circle
 
 > #### ✨ [Live Demo](https://glitch.com/edit/#!/p5-example-trig?path=sketch.js)
@@ -144,6 +172,8 @@ const px = x + u * radius;
 const py = y + v * radius;
 ```
 
+<a name="mapping0"></a>
+
 ## Mapping `-1..1` to `0..1`
 
 Say you have a number *t* between -1 and 1 (inclusive) and you want to map it to 0 to 1 (inclusive), you can use this:
@@ -165,6 +195,8 @@ let n = sin(time);
 n = n * 0.5 + 0.5;
 ```
 
+<a name="mapping1"></a>
+
 ## Mapping `0..1` to `-1..1`
 
 Say you have a number *t* between 0 and 1 (inclusive) and you want to map it to -1 to 1 (inclusive), you can use this:
@@ -172,6 +204,8 @@ Say you have a number *t* between 0 and 1 (inclusive) and you want to map it to 
 ```js
 const n = t * 2 - 1;
 ```
+
+<a name="lerp"></a>
 
 ## Linear Interpolation within a Range
 
@@ -184,6 +218,8 @@ const minVal = 25;
 const maxVal = 75;
 const x = lerp(minVal, maxVal, t);
 ```
+
+<a name="inverseLerp"></a>
 
 ## Inverse Linear Interpolation
 
@@ -206,6 +242,38 @@ const current = 30;
 
 // Returns a value from 0..1
 const t = inverseLerp(minVal, maxVal, current);
+```
+
+## Springing Motion
+
+> #### ✨ [Live Demo](https://glitch.com/edit/#!/p5-example-mouse?path=sketch.js)
+
+You can use linear interpolation to spring a value toward another, for example smooth movement toward the mouse. Here's a `spring` utility:
+
+```js
+// Springs A toward B with a power, accepting deltaTime
+function spring (a, b, power, dt) {
+  return lerp(a, b, 1 - Math.exp(-power * dt));
+}
+```
+
+Example:
+
+```js
+// The old (current/previous) value
+const a = currentX;
+
+// The target value, e.g. new mouse position
+const b = mouseX;
+
+// How fast to spring toward it
+const power = 5;
+
+// Delta time in seconds
+const dt = deltaTime / 1000;
+
+// Update currentX toward new value
+currentX = spring(a, b, power, dt);
 ```
 
 ## Seamless Loops

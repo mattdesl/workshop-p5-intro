@@ -65,13 +65,15 @@ I've also included a small "recipes" document that you can use as a reference if
 
 More links to generative art & creative coding:
 
-- Books
+- Technical Books
 
   - *[Designing Programs](https://designingprograms.bitbucket.io/index.html)* by Mark Webster
 
   - *[Generative Design](http://www.generative-gestaltung.de/2/)* by Benedikt Groß
 
   - *[Getting Started with p5.js](https://www.amazon.com/Make-Interactive-Graphics-JavaScript-Processing/dp/1457186772)* by Lauren McCarthy
+
+  - *[Computational Drawing Book](http://lostritto.com/book)* by Carl Lostritto
 
 - Videos & Courses
 
@@ -95,15 +97,17 @@ More links to generative art & creative coding:
 
   - [math-as-code](https://github.com/Jam3/math-as-code) — A cheat sheet for mathematical notation in code form
 
-- More Resources
+- Related Art Books & Zines
 
-  - [awesome-creative-coding](https://github.com/terkelg/awesome-creative-coding) — A large list of resources
+  - [Graphic Design Manual: Principles and Practice](https://www.counter-print.co.uk/products/graphic-design-manual) by Armin Hofmann
 
-  - [graphics-resources](https://github.com/mattdesl/graphics-resources) — A large list of papers & study material
+  - [Analog Algorithm](https://www.counter-print.co.uk/products/analog-algorithm) by Christoph Grünberger
+
+  - [Market Cafe Magazine](https://www.marketcafemag.com/)
 
 - Tools
 
-  - [cubic-bezier.com](http://cubic-bezier.com) — A cubic Bezier curve editor, useful alongside the [bezier-easing](https://www.npmjs.com/package/bezier-easing) module
+  - [canvas-sketch](https://github.com/mattdesl/canvas-sketch) — A framework for creative coding and generative art in JavaScript
 
 - Communities
 
@@ -112,6 +116,10 @@ More links to generative art & creative coding:
   - [creative-dev Slack team](https://creative-dev.herokuapp.com/)
 
   - [#plottertwitter](https://twitter.com/hashtag/plottertwitter?lang=en), [#generative](https://twitter.com/hashtag/generative?lang=en), [#webgl](https://twitter.com/hashtag/webgl?lang=en) and similar hashtags on Twitter, Instagram etc.
+
+- More Resources
+
+  - [awesome-creative-coding](https://github.com/terkelg/awesome-creative-coding) — A large list of resources
 
 # License
 
