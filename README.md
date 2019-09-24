@@ -4,7 +4,7 @@ This repository includes resources & course notes for students attending my *Int
 
 <center><a href="https://p5-demos.glitch.me"><img src="docs/images/grid.png" width="75%" /></a></center>
 
-The layout and style of the demos is heavily inpsired by Mark Webster's *[Designing Programs](https://designingprograms.bitbucket.io/index.html)*.
+The idea and layout of the demos is heavily inpsired by Mark Webster's *[Designing Programs](https://designingprograms.bitbucket.io/index.html)*.
 
 # Contents
 
