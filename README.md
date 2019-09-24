@@ -8,52 +8,31 @@ The idea and layout of the demos is heavily inpsired by Mark Webster's *[Designi
 
 # Contents
 
-- ✨ Course Demos
-
-  - 🎨 **[https://p5-demos.glitch.me](https://p5-demos.glitch.me)**
-
-  - 🔈 **[https://tone-demos.glitch.me](https://tone-demos.glitch.me)**
-
-- 📖 Other Material
-
-  - *[Designing Programs](https://designingprograms.bitbucket.io/index.html)* by Mark Webster
-
-  - *[Generative Design](http://www.generative-gestaltung.de/2/)* by Benedikt Groß
+- ✨ [Course Demos](#course-demos)
 
 - 🔧 [Tools](#tools)
-
-- 📦 [Sketch Templates](#sketch-templates)
 
 - ✂️️ [Code Snippets](#code-snippets)
 
 - ✨ [Further Reading](#further-reading)
 
+# Course Demos
+
+- 🎨 **[p5-demos.glitch.me](https://p5-demos.glitch.me)** — examples with p5.js
+
+- 🔈 **[tone-demos.glitch.me](https://tone-demos.glitch.me)** — examples with Tone.js
+
+
 # Tools
 
 Here is a list of tools and libraries that will be used during the workshop.
 
-| Tool | Documentation | Description |
-|---|---|---|
-| *A browser* |  | A modern browser, [Chrome](https://www.google.com/chrome/) is recommended
-| [Glitch](https://glitch.com) | [Help](https://glitch.com/help/) | An online platform for editing & sharing JavaScript projects
-| [p5.js](https://p5js.org) | [API Docs](https://p5js.org/reference/) | A JavaScript graphics library for creative coding
-| [Tone.js](https://tonejs.github.io) | [API Docs](https://tonejs.github.io/docs/) | A JavaScript audio library for playing synths and sounds
-
-# Sketch Templates
-
-<center><img src="docs/images/base.png" width="50%" /></center>
-
-### 🎨 p5.js
-
-> https://glitch.com/~p5-example
-
-<a href="https://glitch.com/edit/#!/p5-example?path=sketch.js" target="_blank"><img src="https://cdn.glitch.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Fview-source%402x.png?1513093958802" height="30px" /></a> <a href="https://glitch.com/edit/#!/remix/p5-example" target="_blank"><img src="https://cdn.glitch.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Fremix%402x.png?1513093958726" height="30px" /></a>
-
-### 🔈 Tone.js
-
-> ✨ https://glitch.com/~tone-example-synth
-
-<a href="https://glitch.com/edit/#!/tone-example-synth?path=sketch.js" target="_blank"><img src="https://cdn.glitch.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Fview-source%402x.png?1513093958802" height="30px" /></a> <a href="https://glitch.com/edit/#!/remix/tone-example-synth" target="_blank"><img src="https://cdn.glitch.com/2bdfb3f8-05ef-4035-a06e-2043962a3a13%2Fremix%402x.png?1513093958726" height="30px" /></a>
+| Tool | Documentation | Version | Description |
+|---|---|---|---|
+| *A browser* |  |  | A modern browser, [Chrome](https://www.google.com/chrome/) is recommended
+| [Glitch](https://glitch.com) | [Help](https://glitch.com/help/) |  | An online platform for editing & sharing JavaScript projects
+| [p5.js](https://p5js.org) | [API Docs](https://p5js.org/reference/) | [0.9.0](https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js) | A JavaScript graphics library for creative coding
+| [Tone.js](https://tonejs.github.io) | [API Docs](https://tonejs.github.io/docs/) | [13.8.25](https://unpkg.com/tone@13.8.25/build/Tone.js) | A JavaScript audio library for playing synths and sounds
 
 # Code Snippets
 
