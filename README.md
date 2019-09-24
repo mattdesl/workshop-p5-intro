@@ -2,9 +2,9 @@
 
 This repository includes resources & course notes for students attending my *Intro to Creative Coding* workshops, demonstrating [p5.js](https://p5js.org) and [Tone.js](https://tonejs.github.io).
 
-<center><img src="docs/images/grid.png" width="75%" /></center>
+<center><a href="https://p5-demos.glitch.me"><img src="docs/images/grid.png" width="75%" /></a></center>
 
-The style of the demos in this course (minimal black and white) is heavily inpsired by Mark Webster's *[Designing Programs](https://designingprograms.bitbucket.io/index.html)*.
+The layout and style of the demos is heavily inpsired by Mark Webster's *[Designing Programs](https://designingprograms.bitbucket.io/index.html)*.
 
 # Contents
 
@@ -65,7 +65,7 @@ I've also included a small "recipes" document that you can use as a reference if
 
 More links to generative art & creative coding:
 
-- Technical Books
+- Books
 
   - *[Designing Programs](https://designingprograms.bitbucket.io/index.html)* by Mark Webster
 
@@ -99,17 +99,25 @@ More links to generative art & creative coding:
 
   - [math-as-code](https://github.com/Jam3/math-as-code) — A cheat sheet for mathematical notation in code form
 
+- Audio
+
+  - [Learning Synths by Ableton](https://learningsynths.ableton.com/)
+
+  - [Learning Music by Ableton](https://learningmusic.ableton.com/index.html)
+
+  - [Music Theory](https://www.lightnote.co/)
+
 - Related Art Books & Zines
+
+  - [Circle, Square, Triangle](https://www.counter-print.co.uk/products/bruno-munari-circle-square-triangle) by Bruno Munari
+
+  - [The ABCs of Triangle, Square, Circle: The Bauhaus and Design Theory](https://www.counter-print.co.uk/products/the-abcs-of-triangle-square-circle-the-bauhaus-and-design-theory) by Ellen Lupton
 
   - [Graphic Design Manual: Principles and Practice](https://www.counter-print.co.uk/products/graphic-design-manual) by Armin Hofmann
 
   - [Analog Algorithm](https://www.counter-print.co.uk/products/analog-algorithm) by Christoph Grünberger
 
   - [Market Cafe Magazine](https://www.marketcafemag.com/)
-
-- Tools
-
-  - [canvas-sketch](https://github.com/mattdesl/canvas-sketch) — A framework for creative coding and generative art in JavaScript
 
 - Communities
 
@@ -118,6 +126,10 @@ More links to generative art & creative coding:
   - [creative-dev Slack team](https://creative-dev.herokuapp.com/)
 
   - [#plottertwitter](https://twitter.com/hashtag/plottertwitter?lang=en), [#generative](https://twitter.com/hashtag/generative?lang=en), [#webgl](https://twitter.com/hashtag/webgl?lang=en) and similar hashtags on Twitter, Instagram etc.
+
+- More Tools
+
+  - [canvas-sketch](https://github.com/mattdesl/canvas-sketch) — A framework for creative coding and generative art in JavaScript
 
 - More Resources
 
