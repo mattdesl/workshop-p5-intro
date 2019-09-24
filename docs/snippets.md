@@ -32,6 +32,8 @@ Here you will find some 'recipes' and patterns that we'll be using during the wo
 
 - [Rotate Around Centre](#rotate-around-centre)
 
+- [Fixed Sized Canvas](#fixed-size-canvas)
+
 ## Sketch Fundamentals
 
 At the core of each p5.js sketch is a setup, resize handler, and render loop like so:
@@ -341,6 +343,31 @@ rectMode(CENTER);
 rect(0, 0, size, size);
 ...
 ```
+
+## Fixed Size Canvas
+
+Let's say you want to export your sketch at exactly 1024x1024 px, you can do this to set the size properly but then also visualize it full-screen in the browser window:
+
+```js
+const WIDTH = 1024;
+const HEIGHT = 1024;
+
+// Create a new canvas to the browser size
+function setup () {
+  // Create a canvas with your desired width and height
+  createCanvas(WIDTH, HEIGHT);
+
+  // Scale it to the browser window
+  canvas.style.width = '100%';
+  canvas.style.height = 'auto';
+}
+
+function windowResized () {
+  // Don't do anything on window resize!
+}
+```
+
+In Chrome you can **Right Click > Save As** on the canvas to get a PNG.
 
 ## 
 
