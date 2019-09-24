@@ -20,7 +20,7 @@ The style of the demos in this course (minimal black and white) is heavily inpsi
 
   - *[Generative Design](http://www.generative-gestaltung.de/2/)* by Benedikt Groß
 
-- 🔧 [Tools & Prerequisites](#tools--prerequisites)
+- 🔧 [Tools](#tools)
 
 - 📦 [Sketch Templates](#sketch-templates)
 
@@ -28,16 +28,16 @@ The style of the demos in this course (minimal black and white) is heavily inpsi
 
 - ✨ [Further Reading](#further-reading)
 
-# Tools & Prerequisites
+# Tools
 
-Here is a list of tools, software and libraries that will be used during the workshop.
+Here is a list of tools and libraries that will be used during the workshop.
 
 | Tool | Documentation | Description |
 |---|---|---|
-| *Browser* |  | A modern browser, [Chrome](https://www.google.com/chrome/) is recommended
-| [Glitch](https://glitch.com) | [Help](https://glitch.com/help/) | An online code editor and website hosting service
-| [p5.js](https://p5js.org) | [API Docs](https://p5js.org/reference/) | A graphics library for creative coding
-| [Tone.js](https://tonejs.github.io) | [API Docs](https://tonejs.github.io/docs/) | An audio library for playing synths and sounds
+| *A browser* |  | A modern browser, [Chrome](https://www.google.com/chrome/) is recommended
+| [Glitch](https://glitch.com) | [Help](https://glitch.com/help/) | An online platform for editing & sharing JavaScript projects
+| [p5.js](https://p5js.org) | [API Docs](https://p5js.org/reference/) | A JavaScript graphics library for creative coding
+| [Tone.js](https://tonejs.github.io) | [API Docs](https://tonejs.github.io/docs/) | A JavaScript audio library for playing synths and sounds
 
 # Sketch Templates
 
@@ -74,6 +74,8 @@ More links to generative art & creative coding:
   - *[Getting Started with p5.js](https://www.amazon.com/Make-Interactive-Graphics-JavaScript-Processing/dp/1457186772)* by Lauren McCarthy
 
   - *[Computational Drawing Book](http://lostritto.com/book)* by Carl Lostritto
+
+  - *[Generative Art](https://www.amazon.co.uk/Generative-Art-Matt-Pearson/dp/1935182625)* by Matt Pearson
 
 - Videos & Courses
 
