@@ -110,6 +110,8 @@ More links to generative art & creative coding:
 
   - [canvas-sketch](https://github.com/mattdesl/canvas-sketch) — A framework for creative coding and generative art in JavaScript
 
+  - [Spectrum Analyser](http://spectrum.surge.sh/) — see the frequency spectrum of an MP3 file
+
 - More Resources
 
   - [awesome-creative-coding](https://github.com/terkelg/awesome-creative-coding) — A large list of resources
