@@ -14,6 +14,8 @@ The idea and layout of the demos is heavily inpsired by Mark Webster's *[Designi
 
 - ✂️️ [Code Snippets](#code-snippets)
 
+- 📖 [Slides](#slides)
+
 - ✨ [Further Reading](#further-reading)
 
 # Course Demos
@@ -34,11 +36,29 @@ Here is a list of tools and libraries that will be used during the workshop.
 | [p5.js](https://p5js.org) | [API Docs](https://p5js.org/reference/) | [0.9.0](https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js) | A JavaScript graphics library for creative coding
 | [Tone.js](https://tonejs.github.io) | [API Docs](https://tonejs.github.io/docs/) | [13.8.25](https://unpkg.com/tone@13.8.25/build/Tone.js) | A JavaScript audio library for playing synths and sounds
 
+# Just Starting Out
+
+If you've never coded before, you can check out this tutorial that explains some of the basics:
+
+- [JavaScript For Cats](http://jsforcats.com/)
+
+A more comprehensive guide on the language can be found here:
+
+- [The Modern JavaScript Tutorial](https://javascript.info/)
+
+And here's a useful cheat sheet to use as a reference:
+
+- [Interactive JavaScript Cheat Sheet](https://htmlcheatsheet.com/js/)
+
 # Code Snippets
 
 I've also included a small "recipes" document that you can use as a reference if you are forgetting some of the patterns and recipes discussed during the workshop.
 
 - [Code Snippets](./docs/snippets.md)
+
+- [How-To: Functions](./docs/functions.md)
+
+- [How-To: Timers](./docs/timers.md)
 
 # Further Reading
 
@@ -73,6 +93,8 @@ More links to generative art & creative coding:
   - [My Blog](https://mattdesl.svbtle.com/) — Writing on Creative Coding & Generative Art
 
 - Math
+
+  - [Sine / Cosine Reference](https://www.mathsisfun.com/algebra/trig-interactive-unit-circle.html)
 
   - [Linear Interpolation](https://mattdesl.svbtle.com/linear-interpolation) — Introduction to `lerp`
 
