@@ -96,6 +96,8 @@ More links to generative art & creative coding:
 
   - [Sine / Cosine Reference](https://www.mathsisfun.com/algebra/trig-interactive-unit-circle.html)
 
+  - [Sine and Cosine Calculator](https://www.desmos.com/calculator/hlqxvc6hho)
+
   - [Linear Interpolation](https://mattdesl.svbtle.com/linear-interpolation) — Introduction to `lerp`
 
   - [math-as-code](https://github.com/Jam3/math-as-code) — A cheat sheet for mathematical notation in code form
