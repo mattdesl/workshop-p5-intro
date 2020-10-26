@@ -20,6 +20,8 @@ The idea and layout of the demos is heavily inpsired by Mark Webster's *[Designi
 
 # Course Demos
 
+- ✨ **[starter demo](https://glitch.com/edit/#!/p5-easy-start?path=sketch.js%3A19%3A14)** — a bare-bones starter demo
+
 - 🎨 **[p5-demos.glitch.me](https://p5-demos.glitch.me)** — examples with p5.js
 
 - 🔈 **[tone-demos.glitch.me](https://tone-demos.glitch.me)** — examples with Tone.js
