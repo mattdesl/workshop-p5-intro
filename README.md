@@ -10,6 +10,8 @@ The idea and layout of the demos is heavily inpsired by Mark Webster's *[Designi
 
 - ✨ [Course Demos](#course-demos)
 
+- ✏️ [Exercises](#exercises)
+
 - 🔧 [Tools](#tools)
 
 - ✂️️ [Code Snippets](#code-snippets)
@@ -28,6 +30,10 @@ The idea and layout of the demos is heavily inpsired by Mark Webster's *[Designi
 
 - 🔈 **[tone-demos.glitch.me](https://tone-demos.glitch.me)** — examples with Tone.js
 
+
+## Exercises
+
+- ✏️ [Warm-Up Drawing Exercise](./exercises/1-drawing.md)
 
 # Tools
 
