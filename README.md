@@ -44,7 +44,11 @@ If you've never coded before, you can check out this tutorial that explains some
 
 - [JavaScript For Cats](http://jsforcats.com/)
 
-A more comprehensive guide on the language can be found here:
+Also great is Daniel Shiffman's video series, which often uses p5.js:
+
+- [Programming from A to Z](https://shiffman.net/a2z/)
+
+A more comprehensive guide on the JavaScript language can be found here:
 
 - [The Modern JavaScript Tutorial](https://javascript.info/)
 

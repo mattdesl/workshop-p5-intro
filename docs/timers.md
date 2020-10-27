@@ -1,3 +1,7 @@
+#### <sup>:closed_book: [Intro to Creative Coding](../README.md) → Timers</sup>
+
+---
+
 # Timers
 
 ## run something every N seconds
@@ -57,3 +61,7 @@ let timeout = setTimeout(changeBackground, delay);
   // Stops the timeout
   clearTimeout(timeout);
 ```
+
+## 
+
+#### <sup>[← Back to README](../README.md)

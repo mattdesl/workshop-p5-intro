@@ -1,6 +1,10 @@
-## 🤯 functions
+#### <sup>:closed_book: [Intro to Creative Coding](../README.md) → Functions</sup>
 
-This is a super quick intro to functions.
+---
+
+## Functions
+
+This is a quick intro or "cheat sheet" on writing functions in JavaScript.
 
 ## functions are for running blocks of code
 
@@ -168,3 +172,7 @@ For more complete guides, see:
 
 - [Functions Explained](https://www.codeanalogies.com/javascript-functions-explained)
 - [Understanding Functions in JavaScript](https://www.taniarascia.com/how-to-define-functions-in-javascript/)
+
+## 
+
+#### <sup>[← Back to README](../README.md)
