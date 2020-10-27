@@ -22,6 +22,8 @@ The idea and layout of the demos is heavily inpsired by Mark Webster's *[Designi
 
 - ✨ **[starter demo](https://glitch.com/edit/#!/p5-easy-start?path=sketch.js%3A19%3A14)** — a bare-bones starter demo
 
+  - You can also find a [similar demo on CodeSandbox](https://codesandbox.io/s/p5-template-woe6w?file=/sketch.js) if Glitch.com is giving you any trouble
+
 - 🎨 **[p5-demos.glitch.me](https://p5-demos.glitch.me)** — examples with p5.js
 
 - 🔈 **[tone-demos.glitch.me](https://tone-demos.glitch.me)** — examples with Tone.js
