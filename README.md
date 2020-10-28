@@ -26,10 +26,13 @@ The idea and layout of the demos is heavily inpsired by Mark Webster's *[Designi
 
   - You can also find a [similar demo on CodeSandbox](https://codesandbox.io/s/p5-template-woe6w?file=/sketch.js) if Glitch.com is giving you any trouble
 
-- 🎨 **[p5-demos.glitch.me](https://p5-demos.glitch.me)** — examples with p5.js
+- 🔥 **[p5 random walker](https://glitch.com/edit/#!/p5-demo-walk?path=sketch.js%3A62%3A1)** — a simple generative art sketch with p5.js
 
-- 🔈 **[tone-demos.glitch.me](https://tone-demos.glitch.me)** — examples with Tone.js
+- 📚 Collections
 
+  - 🎨 **[p5-demos.glitch.me](https://p5-demos.glitch.me)** — examples with p5.js
+
+  - 🔈 **[tone-demos.glitch.me](https://tone-demos.glitch.me)** — examples with Tone.js
 
 ## Exercises
 
