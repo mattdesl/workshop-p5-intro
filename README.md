@@ -38,6 +38,8 @@ The idea and layout of the demos is heavily inpsired by Mark Webster's *[Designi
 
 - ✏️ [Warm-Up Drawing Exercise](./exercises/1-drawing.md)
 
+- ✏️ [Georg Nees Remix](./exercises/2-georg-nees.md)
+
 # Tools
 
 Here is a list of tools and libraries that will be used during the workshop.
