@@ -12,7 +12,7 @@ With pen and pencil, come up with a short set of instructions that produces some
 
 - [Sol LeWitt](http://www.artnet.com/artists/sol-lewitt/)
 
-  - Also see [SolvingSol.com]([SolvingSol.com](https://solvingsol.com/solutions/))
+  - Also see [SolvingSol.com](<[SolvingSol.com](https://solvingsol.com/solutions/)>)
 
 - [Leslie Roberts](http://www.paintingisdead.com/leslie-roberts.html)
 
@@ -20,22 +20,22 @@ With pen and pencil, come up with a short set of instructions that produces some
 
 ### 🚀 Example 1: Wall Drawing #130
 
-One classic example is *"Grid and arcs from four corners"*, Sol LeWitt's instructions for Wall Drawing #130 in 1972. The rendered artwork looks something like this:
+One classic example is _"Grid and arcs from four corners"_, Sol LeWitt's instructions for Wall Drawing #130 in 1972. The rendered artwork looks something like this:
 
-<img src="../docs/images/sol1.jpg" width="75%" />
+<img src="../../docs/images/sol1.jpg" width="75%" />
 
 ### 🚀 Example 2: Subdivision
 
-*"Divide an area in two. Choose one of the two new rectangles, and repeat."*
+_"Divide an area in two. Choose one of the two new rectangles, and repeat."_
 
 <img src="../docs/images/rect.png" width="75%" />
 
 ### 🚀 Example 3: Connected Rectangles
 
-1. *Draw a rectangle on the page and lightly fill it.*
-2. *Draw 4 other rectangles around the page, and for each, connect their corners to the corresponding corner in the filled rectangle.*
+1. _Draw a rectangle on the page and lightly fill it._
+2. _Draw 4 other rectangles around the page, and for each, connect their corners to the corresponding corner in the filled rectangle._
 
-<img src="../docs/images/drawing.jpg" width="75%" /> 
+<img src="../docs/images/drawing.jpg" width="75%" />
 
 ### Having Trouble?
 
@@ -45,6 +45,6 @@ If you're stuck, try recreating one of Sol LeWitt's artworks. You can find some 
 
 If you have a friend, family member, or colleague nearby, give them the same instructions to see what they draw and how it might turn out differently!
 
-## 
+##
 
 #### <sup>[← Back to README](../README.md)

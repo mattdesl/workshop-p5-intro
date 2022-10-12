@@ -6,7 +6,7 @@
 
 In this challenge we will remix a classic untitled artwork from Georg Nees', created in 1970 with early computer software.
 
-<img src="../docs/images/georg.jpg" width="75%" />
+<img src="../docs/images/georg.jpeg" width="75%" />
 
 In code:
 
@@ -18,7 +18,7 @@ line(x1, y1, x2, y2);
 
 The work is based on many `line()` segments that are drawn iteratively. Each segment is a straight line from one random point on a circle to another random point on the circle.
 
-<img src="../docs/images/circle.jpg" width="75%" />
+<img src="../docs/images/circle.png" width="75%" />
 
 ### Static Configuration
 
@@ -52,7 +52,7 @@ for (let i = 0; i < count; i++) {
 
 We need to use a little math (trigonometry) to achieve this. We need to compute two different points on a circle, and we can use `cos()` and `sin()` on an angle to get the `x` and `y` coordinate, respectively:
 
-<img src="../docs/images/unit-circle.jpg" width="75%" />
+<img src="../docs/images/unit-circle.png" width="75%" />
 
 So, we will choose a random angle in the range `[-PI..PI]`:
 
