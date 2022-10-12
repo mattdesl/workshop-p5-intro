@@ -34,23 +34,25 @@ Here you will find some 'recipes' and patterns that we'll be using during the wo
 
 - [Fixed Sized Canvas](#fixed-size-canvas)
 
+- [Fixed Seed](#fixed-seed)
+
 ## Sketch Fundamentals
 
 At the core of each p5.js sketch is a setup, resize handler, and render loop like so:
 
 ```js
 // Create a new canvas to the browser size
-function setup () {
+function setup() {
   createCanvas(windowWidth, windowHeight);
 }
 
 // On window resize, update the canvas size
-function windowResized () {
+function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
 
 // Render loop that draws shapes
-function draw(){
+function draw() {
   // your drawing code ...
 }
 ```
@@ -81,7 +83,7 @@ Usage:
 const radius = Math.min(width, height) * 0.25;
 
 // Do one full rotation each second
-const angle = millis() / 1000 * PI * 2;
+const angle = (millis() / 1000) * PI * 2;
 
 // Draw shape
 polygon(width / 2, height / 2, radius, 3, angle);
@@ -107,7 +109,7 @@ Usage:
 
 ```js
 // One full rotation each second
-const angle = millis() / 1000 * PI * 2;
+const angle = (millis() / 1000) * PI * 2;
 
 // Length of line segment is a fraction of the screen
 const length = Math.min(width, height) / 4;
@@ -137,11 +139,11 @@ for (let i = 0; i < count; i++) {
 
 This is also the basis for demos like:
 
-  - [noise](https://glitch.com/edit/#!/p5-example-noise-lines?path=sketch.js)
+- [noise](https://glitch.com/edit/#!/p5-example-noise-lines?path=sketch.js)
 
-  - [rings](https://glitch.com/edit/#!/p5-example-rings?path=sketch.js)
+- [rings](https://glitch.com/edit/#!/p5-example-rings?path=sketch.js)
 
-  - and many others...
+- and many others...
 
 <a name="trig"></a>
 
@@ -178,7 +180,7 @@ const py = y + v * radius;
 
 ## Mapping `-1..1` to `0..1`
 
-Say you have a number *t* between -1 and 1 (inclusive) and you want to map it to 0 to 1 (inclusive), you can use this:
+Say you have a number _t_ between -1 and 1 (inclusive) and you want to map it to 0 to 1 (inclusive), you can use this:
 
 ```js
 const n = t * 0.5 + 0.5;
@@ -201,7 +203,7 @@ n = n * 0.5 + 0.5;
 
 ## Mapping `0..1` to `-1..1`
 
-Say you have a number *t* between 0 and 1 (inclusive) and you want to map it to -1 to 1 (inclusive), you can use this:
+Say you have a number _t_ between 0 and 1 (inclusive) and you want to map it to -1 to 1 (inclusive), you can use this:
 
 ```js
 const n = t * 2 - 1;
@@ -211,7 +213,7 @@ const n = t * 2 - 1;
 
 ## Linear Interpolation within a Range
 
-Say you have *t* between 0 and 1, and you want to map this to a range from 25 to 75. You can use `lerp()` (linear interpolation) to achieve this.
+Say you have _t_ between 0 and 1, and you want to map this to a range from 25 to 75. You can use `lerp()` (linear interpolation) to achieve this.
 
 ```js
 const t = /* value from 0..1 */;
@@ -225,10 +227,10 @@ const x = lerp(minVal, maxVal, t);
 
 ## Inverse Linear Interpolation
 
-Take the opposite of the above example: say you have *v* which is some number between your range of 25 and 75, and you want to compute from it a *t* value betwen 0..1.
+Take the opposite of the above example: say you have _v_ which is some number between your range of 25 and 75, and you want to compute from it a _t_ value betwen 0..1.
 
 ```js
-function inverseLerp (min, max, current) {
+function inverseLerp(min, max, current) {
   if (Math.abs(min - max) < 1e-10) return 0;
   else return (current - min) / (max - min);
 }
@@ -254,7 +256,7 @@ You can use linear interpolation to spring a value toward another, for example s
 
 ```js
 // Springs A toward B with a power, accepting deltaTime
-function spring (a, b, power, dt) {
+function spring(a, b, power, dt) {
   return lerp(a, b, 1 - Math.exp(-power * dt));
 }
 ```
@@ -293,7 +295,7 @@ const duration = 7;
 
 // Get a 'playhead' from 0..1
 // We use modulo to keep it within 0..1
-const playhead = time / duration % 1;
+const playhead = (time / duration) % 1;
 ```
 
 Now you can use the `playhead` variable to influence the animations.
@@ -352,23 +354,59 @@ Let's say you want to export your sketch at exactly 1024x1024 px, you can do thi
 const WIDTH = 1024;
 const HEIGHT = 1024;
 
-// Create a new canvas to the browser size
-function setup () {
-  // Create a canvas with your desired width and height
-  createCanvas(WIDTH, HEIGHT);
-
-  // Scale it to the browser window
-  canvas.style.width = '100%';
-  canvas.style.height = 'auto';
+function fixedCanvas(width, height) {
+  resizeCanvas(width, height);
+  const style = canvas.style;
+  const amt = "90%";
+  if (innerWidth / innerHeight > width / height) {
+    style.width = "auto";
+    style.height = amt;
+  } else {
+    style.height = "auto";
+    style.width = amt;
+  }
+  style.top = style.left = style.bottom = style.right = "0";
+  style.position = "absolute";
+  style.margin = "auto";
 }
 
-function windowResized () {
-  // Don't do anything on window resize!
+// Create a new canvas to the browser size
+function setup() {
+  // Create a canvas
+  createCanvas();
+  // Resize it to your fixed size
+  fixedCanvas(WIDTH, HEIGHT);
+}
+
+function windowResized() {
+  // Resize it to your fixed size
+  fixedCanvas(WIDTH, HEIGHT);
 }
 ```
 
 In Chrome you can **Right Click > Save As** on the canvas to get a PNG.
 
-## 
+## Fixed Seed
+
+If you want a fixed random seed so that you can reload the page and get a new result, but then re-render a static result without it changing, you can use the following:
+
+```js
+let seed;
+
+function setup() {
+  seed = floor(random(0, 1e8));
+  // Setup your canvas as usual
+  // ...
+}
+
+function draw() {
+  // Static drawing
+  noLoop();
+  // Reset random to seed
+  randomSeed(seed);
+}
+```
+
+##
 
 #### <sup>[← Back to Documentation](../README.md)
