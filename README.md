@@ -40,6 +40,8 @@ The idea and layout of the demos is heavily inpsired by Mark Webster's *[Designi
 
 - ✏️ [Georg Nees Remix](./exercises/2-georg-nees.md)
 
+- ✏️ [Hard-Edge Painting](./exercises/3-painting.md)
+
 # Tools
 
 Here is a list of tools and libraries that will be used during the workshop.

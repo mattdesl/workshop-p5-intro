@@ -22,7 +22,7 @@ With pen and pencil, come up with a short set of instructions that produces some
 
 One classic example is _"Grid and arcs from four corners"_, Sol LeWitt's instructions for Wall Drawing #130 in 1972. The rendered artwork looks something like this:
 
-<img src="../../docs/images/sol1.jpg" width="75%" />
+<img src="../docs/images/sol1.jpg" width="75%" />
 
 ### 🚀 Example 2: Subdivision
 
