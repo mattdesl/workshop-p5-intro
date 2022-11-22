@@ -66,6 +66,7 @@ Also great is Daniel Shiffman's video series, which often uses p5.js:
 A more comprehensive guide on the JavaScript language can be found here:
 
 - [The Modern JavaScript Tutorial](https://javascript.info/)
+- [Learn JavaScript in Detail](https://www.scaler.com/topics/javascript/)
 
 And here's a useful cheat sheet to use as a reference:
 
